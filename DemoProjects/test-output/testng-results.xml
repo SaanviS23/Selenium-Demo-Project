@@ -1,21 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-16T22:57:02 SGT" name="Default suite" finished-at="2026-04-16T22:57:13 SGT" duration-ms="10433">
+  <suite started-at="2026-04-21T23:13:34 SGT" name="Suite" finished-at="2026-04-21T23:13:55 SGT" duration-ms="20275">
     <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifytheUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscripts.LoginTest@4135c3b]" name="verifytheUserIsAbleToLoginUsingValidCredentials" class="testscripts.LoginTest"/>
+        <method signature="LoginTest.verifytheUserIsAbleToLoginUsingInValidUserNameandValidPassword()[pri:3, instance:testscripts.LoginTest@4135c3b]" name="verifytheUserIsAbleToLoginUsingInValidUserNameandValidPassword" class="testscripts.LoginTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2026-04-16T22:57:02 SGT" name="Default test" finished-at="2026-04-16T22:57:13 SGT" duration-ms="10433">
-      <class name="testscripts.Login">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:testscripts.Login@35e2d654]" started-at="2026-04-16T22:57:02 SGT" name="browserInitialization" finished-at="2026-04-16T22:57:11 SGT" duration-ms="8456" status="PASS">
+    <test started-at="2026-04-21T23:13:34 SGT" name="Test" finished-at="2026-04-21T23:13:55 SGT" duration-ms="20275">
+      <class name="testscripts.LoginTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:34 SGT" name="browserInitialization" finished-at="2026-04-21T23:13:39 SGT" duration-ms="4266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="loginValidUserNameandInValidPassword()[pri:0, instance:testscripts.Login@35e2d654]" started-at="2026-04-16T22:57:11 SGT" name="loginValidUserNameandInValidPassword" finished-at="2026-04-16T22:57:13 SGT" duration-ms="1877" status="PASS">
+        <test-method signature="verifytheUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:39 SGT" name="verifytheUserIsAbleToLoginUsingValidCredentials" finished-at="2026-04-21T23:13:41 SGT" duration-ms="2273" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginValidUserNameandInValidPassword -->
-      </class> <!-- testscripts.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verifytheUserIsAbleToLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="browserQuitandClose()[pri:0, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:41 SGT" name="browserQuitandClose" finished-at="2026-04-21T23:13:41 SGT" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuitandClose -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:41 SGT" name="browserInitialization" finished-at="2026-04-21T23:13:44 SGT" duration-ms="3306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifytheUserIsAbleToLoginUsingValidUserNameandInvalidPassword()[pri:2, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:44 SGT" name="verifytheUserIsAbleToLoginUsingValidUserNameandInvalidPassword" finished-at="2026-04-21T23:13:45 SGT" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytheUserIsAbleToLoginUsingValidUserNameandInvalidPassword -->
+        <test-method is-config="true" signature="browserQuitandClose()[pri:0, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:45 SGT" name="browserQuitandClose" finished-at="2026-04-21T23:13:45 SGT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuitandClose -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:45 SGT" name="browserInitialization" finished-at="2026-04-21T23:13:49 SGT" duration-ms="3380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifytheUserIsAbleToLoginUsingInValidUserNameandValidPassword()[pri:3, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:49 SGT" name="verifytheUserIsAbleToLoginUsingInValidUserNameandValidPassword" finished-at="2026-04-21T23:13:50 SGT" duration-ms="1369" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="alert alert-danger alert-dismissible"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db09a0ec48c5f5d92c94aba6e1244104, findElement {value=//div[@class="alert alert-danger alert-dismissible"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\bhara\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35881}, goog:processID: 5168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:35881/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db09a0ec48c5f5d92c94aba6e1244104]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="alert alert-danger alert-dismissible"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db09a0ec48c5f5d92c94aba6e1244104, findElement {value=//div[@class="alert alert-danger alert-dismissible"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\bhara\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35881}, goog:processID: 5168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:35881/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db09a0ec48c5f5d92c94aba6e1244104
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at pages.LoginPage.isAlertDispayed(LoginPage.java:51)
+at testscripts.LoginTest.verifytheUserIsAbleToLoginUsingInValidUserNameandValidPassword(LoginTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytheUserIsAbleToLoginUsingInValidUserNameandValidPassword -->
+        <test-method is-config="true" signature="browserQuitandClose()[pri:0, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:50 SGT" name="browserQuitandClose" finished-at="2026-04-21T23:13:50 SGT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuitandClose -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:50 SGT" name="browserInitialization" finished-at="2026-04-21T23:13:54 SGT" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifytheUserIsAbleToLoginUsingInValidUserNameandInValidPassword()[pri:4, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:54 SGT" name="verifytheUserIsAbleToLoginUsingInValidUserNameandInValidPassword" finished-at="2026-04-21T23:13:54 SGT" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytheUserIsAbleToLoginUsingInValidUserNameandInValidPassword -->
+        <test-method is-config="true" signature="browserQuitandClose()[pri:0, instance:testscripts.LoginTest@4135c3b]" started-at="2026-04-21T23:13:54 SGT" name="browserQuitandClose" finished-at="2026-04-21T23:13:55 SGT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuitandClose -->
+      </class> <!-- testscripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
